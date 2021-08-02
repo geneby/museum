@@ -1,5 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Forum'), local('Forum'), url('../museum/assets/fonts/Forum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url('../museum/assets/fonts/Forum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../museum/assets/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../museum/assets/fonts/Roboto-Medium.ttf') format('truetype');
+}
 
 html {
   scroll-behavior: smooth;
@@ -43,8 +68,6 @@ hr {
 }
 
 .container {
-  /* display: flex; */
-  /* flex-direction: column; */
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -112,6 +135,7 @@ hr {
   color: #ffffff;
   font-family: "Roboto", Helvetica, sans-serif;
   letter-spacing: 2px;
+  font-weight: 300;
 }
 
 .menu-item a:hover {
